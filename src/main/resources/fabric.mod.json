@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mod-menu",
+  "version": "${version}",
+  "name": "Mod Menu",
+  "description":
+  "A lightweight Fabric mod viewer for HMCL, inspired by MC's Mod Menu.",
+  "authors": [
+    {
+      "name": "REGE",
+      "contact": {"homepage": "https://github.com/IAmREGE"}
+    }
+  ],
+  "contact": {
+    "homepage": "https://github.com/IAmREGE/hmclmods-Mod-Menu",
+    "issues": "https://github.com/IAmREGE/hmclmods-Mod-Menu/issues",
+    "sources": "https://github.com/IAmREGE/hmclmods-Mod-Menu"
+  },
+  "license": "GPL-3.0-or-later",
+  "mixins": ["mod-menu.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "hmcl": ">=3.5.0"
+  },
+  "suggests": {
+    "hmcl-i18n-merger": "*"
+  }
+}
